@@ -27,6 +27,7 @@ body {
   color: var(--text-color);
 }
 
+/* Selve navbaren */
 .header {
   position: fixed;
   top: 0;
@@ -41,6 +42,7 @@ body {
   z-index: 100;
 }
 
+/* Logoen */
 .logo {
   font-size: 3rem;
   color: var(--text-color);
@@ -55,8 +57,14 @@ body {
 
 .logo span {
   text-shadow: 0 0 20px var(--main-color);
+  color: var(--main-color);
 }
 
+span {
+  color: var(--main-color);
+}
+
+/* Selve contenten i navbaren */
 .navbar a{
   font-size: 1.8rem;
   color: var(--text-color);
@@ -72,12 +80,14 @@ body {
   border-bottom: 3px solid var(--main-color);
 }
 
+/* Hamburger meny */
 #menu-icon {
   font-size: 3.6rem;
   color: var(--main-color);
   display: none;
 }
 
+/* Hoved contenten på siden */
 section {
   min-height: 100vh;
   padding: 10rem 9% 10rem;
@@ -97,14 +107,6 @@ section {
   text-align: left;
   justify-content: center;
   margin-top: 3rem;
-}
-
-span {
-  color: var(--main-color);
-}
-
-.logo span {
-  color: var(--main-color);
 }
 
 .home-content h3 {
@@ -166,6 +168,7 @@ span {
   box-shadow: 0 0 20px var(--main-color);
 }
 
+/* Tekst animasjon */
 .text-animation {
   font-size: 34px;
   font-weight: 600;
@@ -245,6 +248,7 @@ span {
  }
 }
 
+/* Media query */
 @media (max-width:1258px) {
   html {
     font-size: 55%;
