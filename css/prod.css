@@ -102,13 +102,13 @@ body {
 .content img {
   width: 22rem;
   height: 22rem;
-  border-radius: 50%;
+  border-radius: 2rem;
 }
 
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 .content-item {
