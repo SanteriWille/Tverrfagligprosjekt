@@ -166,6 +166,12 @@ display: none;
   header {
     padding: 2rem 3%;
   }
+  .content .wrapper {
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .heading {
+    font-size: 4rem
+  }
 }
 
 @media (max-width:895px) {
